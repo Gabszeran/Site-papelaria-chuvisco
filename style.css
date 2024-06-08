@@ -81,6 +81,10 @@ header {
     padding: 12px;
 }
 
+#sub-menu a:hover {
+    color: #734A91;
+}
+
 #sub-menu i {
     color: #fff;
     margin-right: 24px;
@@ -160,9 +164,9 @@ header {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 30px;
+    margin: 10px;
     cursor: pointer;
-    width: 400px;
+    width: 350px;
     height: 500px;
 }
 
@@ -210,4 +214,95 @@ margin: 10px;
     height: 35px;
     margin: 10px;
     border-radius: 32px;
+}
+
+/*------------------------------NEWSLETTER------------------------------*/
+.newsletter-container {
+    background-color: #734A91;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.newsletter-container h1 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+
+}
+
+.newsletter-container p {
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+}
+/*------------------------------RODAPÉ------------------------------*/
+footer {
+    background-color: #D8D1D1;
+    color: #4F6270;
+    padding: 15px;
+}
+
+#container-1-rodape {
+    display: flex;
+    flex-direction: row;
+}
+
+#container-1-rodape div {
+    max-width: 25vw;
+    padding: 20px;
+}
+
+footer h1 {
+    font-size: 1rem;
+    padding: 8px;
+}
+
+footer p {
+    font-size: 0.7rem;
+    padding: 8px;
+}
+
+#container-2-rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+.meios {
+    padding: 20px;
+    padding-bottom: 0;
+    display: flex;
+}
+
+.meios h1 {
+    margin-right: 15px;
+}
+
+.meios img {
+    margin-right: 15px;
+}
+
+#redes-sociais i {
+    padding: 8px;
+}
+
+hr {
+    width: 95vw;
+    height: 2px;
+    background-color: #4f627084;
+    margin: auto;
+}
+
+#copyright {
+    width: 100vw;
+    min-height: 100px;
+    background-color: #4F6270;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 35px;
 }
