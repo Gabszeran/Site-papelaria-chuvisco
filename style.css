@@ -132,4 +132,82 @@ header {
 .infos p {
     font-size: 0.8rem;
 }
+/*------------------------------PRODUTOS MAIS VENDIDOS ------------------------------*/
+#mais-vendidos {
+    background-color: #734A91;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
+#mais-vendidos h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+#produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+    cursor: pointer;
+    width: 400px;
+    height: 500px;
+}
+
+.produto:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+.produto img {
+    max-width: 280px;
+    max-height: 280px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.estrelas {
+margin: 10px;
+}
+
+.estrelas i {
+    color: yellow;
+    font-size: 1rem;
+}
+
+.produto h1 {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.produto h1:hover {
+    color: #0000007a;
+}
+
+.produto p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #295778;
+}
+
+.button-comprar {
+    background-color: #295778;
+    color: #fff;
+    width: 180px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 32px;
+}
