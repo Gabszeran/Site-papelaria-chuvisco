@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*------------------------------HEADER------------------------------*/
+header {
+    background-color: #734A91;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.input-container {
+    background-color: #734A91;
+}
+
+.input {
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 40vw;
+    height: 38px;
+    border-radius: 6px;
+}
+
+.input i {
+    color: #959393;
+    cursor: pointer;
+}
+
+.input input {
+    background-color: #fff;
+    border: none;
+    color: #959393;
+    font-size: 0.97rem;
+    outline: none;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.item {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item i {
+    margin-bottom: 12px;
+}
+/*------------------------------SUB-MENU------------------------------*/
+#sub-menu {
+    background-color: #A87BC7;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#sub-menu a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#sub-menu i {
+    color: #fff;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+#todas-as-categorias {
+    margin: 0px 0px 0px 12px;
+}
+/*------------------------------IMAGEM HOME------------------------------*/
+#imagem-home {
+    width: 100vw;
+}
+/*------------------------------FAIXA INFORMAÇÕES/DESCONTOS/FRETE GRÁTIS------------------------------*/
+#faixa-infos {
+    background-color: #DFCAED;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#infos-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+#faixa-infos i {
+    font-size: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    width: 214px;
+}
+
+.infos h1 {
+    font-size: 1rem;
+}
+
+.infos p {
+    font-size: 0.8rem;
+}
+
