@@ -20,6 +20,18 @@ header {
     align-content: center;
 }
 
+#logo-2 {
+    display: none;
+}
+
+.menu-hamburguer {
+    display: none;
+}
+
+.meu-carrinho-media-query {
+    display: none;
+}
+
 header img {
     cursor: pointer;
 }
@@ -343,4 +355,59 @@ hr {
 
 @media screen and (max-width: 750px) {
     
+    #menu {
+        display: none;
+    }
+
+    .icons-media-query {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu-hamburguer {
+        display: block;
+        color: #fff;
+        cursor: pointer;
+        padding: 15px;
+    }
+
+    .meu-carrinho-media-query {
+        display: block;
+        color: #fff;
+        cursor: pointer;
+        padding: 15px;
+    }
+
+    #logo {
+        display: none;
+    }
+    
+    #logo-2 {
+        display: block;
+        width: 150px;
+        height: auto;
+        padding: 15px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .input-container {
+        margin-bottom: 20px;
+    }
+    
+    .input {
+        width: 80vw;
+        
+    }
+
+    #sub-menu {
+        display: none;
+    }
+
+    #imagem-home {
+        margin-top: 30px;
+    }
 }
