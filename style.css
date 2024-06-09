@@ -116,37 +116,30 @@ header img {
 }
 /*------------------------------IMAGEM HOME------------------------------*/
 #imagem-home {
-    width: 100vw;
+    width: 100%;
 }
 /*------------------------------FAIXA INFORMAÇÕES/DESCONTOS/FRETE GRÁTIS------------------------------*/
-#faixa-infos {
+#infos-container {
     background-color: #DFCAED;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    align-content: center;
-    justify-content: center;
+    padding: 15px;
     min-height: 200px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-#infos-container {
-    display: flex;
-    align-items: flex-start;
-}
-
-
-#faixa-infos i {
-    font-size: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
-
+#infos-container i {
+    font-size: 2rem;
 }
 
 .infos {
     display: flex;
     flex-direction: column;
-    width: 214px;
+    min-width: 180px;
+    max-width: 250px;
+    padding: 15px;
 }
 
 .infos h1 {
@@ -295,9 +288,10 @@ footer {
 #container-1-rodape {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
-#container-1-rodape div {
+.info-rodape {
     max-width: 25vw;
     padding: 20px;
 }
@@ -310,6 +304,7 @@ footer h1 {
 footer p {
     font-size: 0.7rem;
     padding: 8px;
+    cursor: pointer;
 }
 
 #container-2-rodape {
@@ -321,6 +316,7 @@ footer p {
     padding: 20px;
     padding-bottom: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .meios h1 {
@@ -333,17 +329,17 @@ footer p {
 
 #redes-sociais i {
     padding: 8px;
+    cursor: pointer;
 }
 
 hr {
-    width: 95vw;
-    height: 2px;
+    width: 95%;
+    height: 1.2px;
     background-color: #4f627084;
     margin: auto;
 }
 
 #copyright {
-    width: 100vw;
     min-height: 100px;
     background-color: #4F6270;
     color: #fff;
@@ -363,20 +359,21 @@ hr {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        width: 100%
     }
 
     .menu-hamburguer {
         display: block;
         color: #fff;
         cursor: pointer;
-        padding: 15px;
+        font-size: 1.5rem;
     }
 
     .meu-carrinho-media-query {
         display: block;
         color: #fff;
         cursor: pointer;
-        padding: 15px;
+        font-size: 1.5rem;
     }
 
     #logo {
@@ -385,7 +382,7 @@ hr {
     
     #logo-2 {
         display: block;
-        width: 150px;
+        width: 170px;
         height: auto;
         padding: 15px;
     }
@@ -399,7 +396,7 @@ hr {
     }
     
     .input {
-        width: 80vw;
+        width: 85vw;
         
     }
 
@@ -410,4 +407,52 @@ hr {
     #imagem-home {
         margin-top: 30px;
     }
+
+    #infos-container {
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .infos {
+        padding: 15px;
+        width: 38vw;
+    }
+
+    .infos h1 {
+        font-size: 0.8rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .infos p {
+        font-size: 0.7rem;
+    }
+
+    #infos-container i {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    #container-1-rodape {
+        flex-wrap: wrap;
+    }
+
+    .info-rodape {
+        min-width: 40vw;
+        padding: 10px;
+    }
+
+    .produto {
+        max-width: 280px;
+        height: 400px;
+    }
+    
+    .produto img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
 }
