@@ -7,8 +7,55 @@
     box-sizing: border-box;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+#atendimento {
+    font-size: 1rem;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    padding: 25px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+#button-voltar-site {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 32px;
+    min-width: 230px;
+    font-size: 0.7rem;
+    color: #fff;
+    background-color: #734A91;
+}
+
+#minha-conta-secao {
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
 }
 
 /*------------------------------HEADER------------------------------*/
@@ -46,7 +93,7 @@ header img {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    width: 40vw;
+    max-width: 40vw;
     height: 38px;
     border-radius: 6px;
 }
@@ -87,7 +134,7 @@ header img {
 /*------------------------------SUB-MENU------------------------------*/
 #sub-menu {
     background-color: #A87BC7;
-    height: 50px;
+    min-height: 50px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -96,7 +143,7 @@ header img {
 
 #sub-menu a {
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-decoration: none;
     padding: 12px;
 }
