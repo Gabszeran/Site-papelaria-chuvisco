@@ -12,389 +12,411 @@
 
     <body>
 
-        <header>
+        <div id="conteudo-home" class="display-block">
 
-            <div class="icons-media-query">
-                <span class="menu-hamburguer"><i class="fa-solid fa-bars"></i></span>
 
-                <img id="logo" src="img/logo.webp" width="148px" height="139px" alt="logo"/>
-                <img id="logo-2"src="img/logo-2.webp" alt="logo">
+            <div id="minha-conta-secao" class="display-none">
 
-                <span class="meu-carrinho-media-query"><i class="fa-solid fa-cart-shopping"></i></span>
+                <p>CARRINHO</p>
+
+                <i id="x" class="fa-regular fa-circle-xmark"></i>
+                
+            </div>
+
+            <header>
+
+                <div class="icons-media-query">
+                    <span class="menu-hamburguer"><i class="fa-solid fa-bars"></i></span>
+    
+                    <img id="logo" src="img/logo.webp" width="148px" height="139px" alt="logo"/>
+                    <img id="logo-2" src="img/logo-2.webp" alt="logo">
+    
+                    <span class="meu-carrinho-media-query"><i class="fa-solid fa-cart-shopping"></i></span>
+                </div>
+    
+                
+                <div class="input-container">
+                    <div class="input">
+                        <input id="barra-de-pesquisa" type="text" placeholder="O que você está buscando?"/>
+    
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+    
+                <div id="menu">
+    
+                    <div class="item">
+                        <i class="fa-solid fa-comments"></i>
+                        <p class="atendimento-botao">Atendimento</p>
+                    </div>
+    
+                    <div class="item">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="minha-conta-botao">Minha conta</p>
+                    </div>
+    
+                    <div class="item">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>Meu carrinho</p>
+                    </div>
+                
+                </div>
+    
+            </header>
+    
+            <div id="sub-menu">
+    
+                <a href="">HOME</a>
+    
+                <a id="todas-as-categorias" href="">TODAS AS CATEGORIAS</a><i class="fa-solid fa-chevron-down"></i>
+    
+                <a href="">AGENDAS</a>
+    
+                <a href="">BORRACHAS</a>
+    
+                <a href="">CADERNOS</a>
+    
+                <a href="">CANETAS</a>
+    
+            </div>
+    
+            <img id="imagem-home" src="img/img-home.png" alt="imagem" />
+    
+            <div id="infos-container">
+    
+                <div class="infos">
+                    <i class="fa-solid fa-percent"></i>
+                    <h1>Quer desconto?</h1>
+                    <p>Aproveite o cupom CHUVISCO para ganhar 10% off em todo o site.</p>
+                </div>
+    
+                <div class="infos">
+                    <i class="fa-solid fa-arrow-rotate-right"></i>
+                    <h1>Total garantia de satisfação</h1>
+                    <p>
+                        Devolução gratuita em até 7 dias após o recebimento, caso não esteja
+                        satisfeito(a) com a compra.
+                    </p>
+                </div>
+    
+                <div class="infos">
+                    <i class="fa-solid fa-truck"></i>
+                    <h1>Frete grátis</h1>
+                    <p>
+                        Frete grátis em compras acima de R$600,00. Então junta as amigas e
+                        corre!
+                    </p>
+                </div>
+    
+                <div class="infos">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h1>Compre com facilidade</h1>
+                    <p>
+                        Pague em até 3x sem juros no cartão, ou à vista no Pix e ganhe 5%
+                        off.
+                    </p>
+                </div>
+    
+            </div>
+    
+            
+    
+            <div id="mais-vendidos">
+            <h1>MAIS VENDIDOS</h1>
+            </div>
+    
+            <section id="produtos">
+    
+                <div class="produto">
+    
+                    <img src="img/caderno.webp" alt="produto" />
+    
+                    <div class="estrelas">
+    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+    
+                        <p><span class="n-avaliacoes">(47)</span></p>
+    
+                    </div>
+    
+                    <h1>Caderno Universitário de 10 matérias</h1>
+    
+                    <p><span class="valores-antigos"><s>R$98,90</s></span>R$49,90</p>
+    
+                    <button class="button-comprar">COMPRAR</button>
+    
+                </div>
+    
+                <div class="produto">
+    
+                    <img src="img/planner.webp" alt="produto">
+    
+                    <div class="estrelas">
+    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+    
+                        <p><span class="n-avaliacoes">(103)</span></p>
+    
+                    </div>
+    
+                    <h1>Planner permanente</h1>
+    
+                    <p><span class="valores-antigos"><s>R$129,90</s></span>R$65,90</p>
+    
+                    <button class="button-comprar">COMPRAR</button>
+    
+                </div>
+    
+            <div class="produto">
+    
+                    <img src="img/caneta.webp" alt="produto">
+    
+                    <div class="estrelas">
+    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+    
+                        <p><span class="n-avaliacoes">(64)</span></p>
+    
+                    </div>
+    
+                    <h1>Cantea gel 0.7 Jocar Office</h1>
+    
+                    <p><span class="valores-antigos"><s>R$9,90</s></span>R$4,90</p>
+    
+                    <button class="button-comprar">COMPRAR</button>
+    
+                </div>
+    
+                <div class="produto">
+    
+                    <img src="img/agenda.webp" alt="produto">
+    
+                    <div class="estrelas">
+    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+    
+                        <p><span class="n-avaliacoes">(128)</span></p>
+                        
+                    </div>
+    
+                    <h1>Agenda permanente rosa</h1>
+    
+                    <p><span class="valores-antigos"><s>R$89,90</s></span>R$45,90</p>
+    
+                    <button class="button-comprar">COMPRAR</button>
+                        
+                </div>
+    
+                <div class="produto">
+    
+                    <img src="img/lapiseira.webp" alt="produto">
+    
+                    <div class="estrelas">
+    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+    
+                        <p><span class="n-avaliacoes">(27)</span></p>
+                        
+                    </div>
+    
+                    <h1>Lapiseira 0.7 Jocar Oficce</h1>
+    
+                    <p><span class="valores-antigos"><s>R$16,90</s></span>R$8,90</p>
+    
+                    <button class="button-comprar">COMPRAR</button>
+                        
+                </div>
+    
+                <div class="produto">
+    
+                    <img src="img/borracha.webp" alt="produto">
+    
+                    <div class="estrelas">
+    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        
+                        <p><span class="n-avaliacoes">(19)</span></p>
+    
+                    </div>
+    
+                    <h1>Borracha Limão Leo&Leo</h1>
+    
+                    <p><span class="valores-antigos"><s>R$15,90</s></span>R$7,90</p>
+    
+                    <button class="button-comprar">COMPRAR</button>
+                        
+                </div>
+    
+                <div class="produto">
+    
+                    <img src="img/estojo.webp" alt="produto">
+    
+                    <div class="estrelas">
+    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+    
+                        <p><span class="n-avaliacoes">(23)</span></p>
+    
+                    </div>
+    
+                    <h1>Estojo Rosa Leo&Leo</h1>
+    
+                    <p><span class="valores-antigos"><s>R$19,90</s></span>R$15,90</p>
+    
+                    <button class="button-comprar">COMPRAR</button>
+                        
+                </div>
+    
+                <div class="produto">
+    
+                    <img src="img/prendedores.webp" alt="produto">
+    
+                    <div class="estrelas">
+    
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p><span class="n-avaliacoes">(31)</span></p>
+    
+                    </div>
+    
+                    <h1>Kit 6 Prendedores Estampados Jocar Office</h1>
+    
+                    <p><span class="valores-antigos"><s>R$19,90</s></span>R$9,90</p>
+    
+                    <button class="button-comprar">COMPRAR</button>
+                        
+                </div>
+    
+    
+                <div class="newsletter-container">
+                    <p>NEWSLETTER</p>
+                    <h1>Receba todas as promoções</h1>
+                    <p>Quer receber nossas ofertas? Cadastre-se e comece a recebê-las!</p>
+    
+                    <div class="input-container">
+                        <div class="input">
+                            <input type="text" placeholder="E-mail">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                
+    
+            </section>
+    
+            <footer>
+    
+                <div id="container-1-rodape">
+    
+                    <div class="info-rodape">
+                        <h1>Sobre a Papelaria Chuviscos</h1>
+                        <p>A Papelaria Chuviscos é o destino ideal para você encontrar materiais de papelaria, cadernos personalizados e itens de escritório que fazem a diferença no seu dia a dia. Com uma ampla variedade de estilos, tamanhos e acabamentos, oferecemos produtos que atendem a todas as suas necessidades. Há mais de 10 anos no mercado, somos especialistas em artigos de papelaria, garantindo design inovador, matéria-prima de excelência e acabamentos premium de alta qualidade.</p>
+                    </div>
+    
+                    <div class="info-rodape">
+                        <h1>Informações e contato</h1>
+                        <p>Login e rastreio</p>
+                        <p>Conteúdo e promoções</p>
+                        <p>Política de privacidade</p>
+                        <p>Política de frete</p>
+                        <p>Quem somos</p>
+                        <p>Trocas e devoluções</p>
+                        <p>Unboxing</p>
+                        <p>Contato</p>
+                    </div>
+    
+                    <div class="info-rodape">
+                        <h1>Entre em contato</h1>
+                        <p>4898472XXXX</p>
+                        <p>1234567XXXX</p>
+                        <p>emailgenerico@gmail.com</p>
+                        <p>Rodovia SC 401, Florianópolis/SC</p>
+                    </div>
+    
+                    <div class="info-rodape" id="redes-sociais">
+                        <h1>Permaneça conectado</h1>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+    
+                </div>
+    
+                <hr>
+    
+                <div id="container-2-rodape">
+    
+                    <div class="meios">
+                        <h1>Meios de pagamento</h1>
+                        <img src="icons/visa.png" alt="visa" width="45px" height="45px">
+                        <img src="icons/amex.png" alt="amex" width="45px" height="45px">
+                        <img src="icons/mastercard.png" alt="mastercard" width="45px" height="45px">
+                        <img src="icons/boleto.png" alt="boleto" width="45px" height="45px">
+                        <img src="icons/pix.png" alt="pix" width="41px" height="40px">
+                    </div>
+    
+                    <div class="meios">
+                        <h1>Meios de envio</h1>
+                        <img src="icons/sedex.jpg" alt="sedex" width="45px" height="25px">
+                        <img src="icons/melhor-envio.jpg" alt="melhor envio" width="45px" height="25px">
+                    </div>
+    
+                    
+                </div>
+                
+            </footer>
+    
+            <div id="copyright">
+                <p>Copyright Chuvisco Papelaria - 4407XXXXXXXXXX - 2024. Todos os direitos reservados.</p>
             </div>
 
             
-            <div class="input-container">
-                <div class="input">
-                    <input id="barra-de-pesquisa" type="text" placeholder="O que você está buscando?"/>
-
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
-
-            <div id="menu">
-
-                <div class="item">
-                    <i class="fa-solid fa-comments"></i>
-                    <p>Atendimento</p>
-                </div>
-
-                <div class="item">
-                    <i class="fa-solid fa-user"></i>
-                    <p>Minha conta</p>
-                </div>
-
-                <div class="item">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <p>Meu carrinho</p>
-                </div>
-            
-            </div>
-
-        </header>
-
-        <div id="sub-menu">
-
-            <a href="">HOME</a>
-
-            <a id="todas-as-categorias" href="">TODAS AS CATEGORIAS</a><i class="fa-solid fa-chevron-down"></i>
-
-            <a href="">AGENDAS</a>
-
-            <a href="">BORRACHAS</a>
-
-            <a href="">CADERNOS</a>
-
-            <a href="">CANETAS</a>
-
-        </div>
-
-        <img id="imagem-home" src="img/teste.png" alt="imagem" />
-
-       
-
-        <div id="infos-container">
-
-            <div class="infos">
-                <i class="fa-solid fa-percent"></i>
-                <h1>Quer desconto?</h1>
-                <p>Aproveite o cupom CHUVISCO para ganhar 10% off em todo o site.</p>
-            </div>
-
-            <div class="infos">
-                <i class="fa-solid fa-arrow-rotate-right"></i>
-                <h1>Total garantia de satisfação</h1>
-                <p>
-                    Devolução gratuita em até 7 dias após o recebimento, caso não esteja
-                    satisfeito(a) com a compra.
-                </p>
-            </div>
-
-            <div class="infos">
-                <i class="fa-solid fa-truck"></i>
-                <h1>Frete grátis</h1>
-                <p>
-                    Frete grátis em compras acima de R$600,00. Então junta as amigas e
-                    corre!
-                </p>
-            </div>
-
-            <div class="infos">
-                <i class="fa-solid fa-credit-card"></i>
-                <h1>Compre com facilidade</h1>
-                <p>
-                    Pague em até 3x sem juros no cartão, ou à vista no Pix e ganhe 5%
-                    off.
-                </p>
-            </div>
-
         </div>
 
         
+        <div id="atendimento-pagina" class="display-none">
 
-        <div id="mais-vendidos">
-        <h1>MAIS VENDIDOS</h1>
-        </div>
+            <p>Aguarde... você está sendo direcionado para nosso atendimento.</p>
 
-        <section id="produtos">
+            <button id="button-voltar-site">Voltar para o site</button>
 
-            <div class="produto">
-
-                <img src="img/caderno.webp" alt="produto" />
-
-                <div class="estrelas">
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star-half-stroke"></i>
-
-                    <p><span class="n-avaliacoes">(47)</span></p>
-
-                </div>
-
-                <h1>Caderno Universitário de 10 matérias</h1>
-
-                <p><span class="valores-antigos"><s>R$98,90</s></span>R$49,90</p>
-
-                <button class="button-comprar">COMPRAR</button>
-
-            </div>
-
-            <div class="produto">
-
-                <img src="img/planner.webp" alt="produto">
-
-                <div class="estrelas">
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-
-                    <p><span class="n-avaliacoes">(103)</span></p>
-
-                </div>
-
-                <h1>Planner permanente</h1>
-
-                <p><span class="valores-antigos"><s>R$129,90</s></span>R$65,90</p>
-
-                <button class="button-comprar">COMPRAR</button>
-
-            </div>
-
-        <div class="produto">
-
-                <img src="img/caneta.webp" alt="produto">
-
-                <div class="estrelas">
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star-half-stroke"></i>
-
-                    <p><span class="n-avaliacoes">(64)</span></p>
-
-                </div>
-
-                <h1>Cantea gel 0.7 Jocar Office</h1>
-
-                <p><span class="valores-antigos"><s>R$9,90</s></span>R$4,90</p>
-
-                <button class="button-comprar">COMPRAR</button>
-
-            </div>
-
-            <div class="produto">
-
-                <img src="img/agenda.webp" alt="produto">
-
-                <div class="estrelas">
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-
-                    <p><span class="n-avaliacoes">(128)</span></p>
-                    
-                </div>
-
-                <h1>Agenda permanente rosa</h1>
-
-                <p><span class="valores-antigos"><s>R$89,90</s></span>R$45,90</p>
-
-                <button class="button-comprar">COMPRAR</button>
-                    
-            </div>
-
-            <div class="produto">
-
-                <img src="img/lapiseira.webp" alt="produto">
-
-                <div class="estrelas">
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-
-                    <p><span class="n-avaliacoes">(27)</span></p>
-                    
-                </div>
-
-                <h1>Lapiseira 0.7 Jocar Oficce</h1>
-
-                <p><span class="valores-antigos"><s>R$16,90</s></span>R$8,90</p>
-
-                <button class="button-comprar">COMPRAR</button>
-                    
-            </div>
-
-            <div class="produto">
-
-                <img src="img/borracha.webp" alt="produto">
-
-                <div class="estrelas">
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star-half-stroke"></i>
-                    
-                    <p><span class="n-avaliacoes">(19)</span></p>
-
-                </div>
-
-                <h1>Borracha Limão Leo&Leo</h1>
-
-                <p><span class="valores-antigos"><s>R$15,90</s></span>R$7,90</p>
-
-                <button class="button-comprar">COMPRAR</button>
-                    
-            </div>
-
-            <div class="produto">
-
-                <img src="img/estojo.webp" alt="produto">
-
-                <div class="estrelas">
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-regular fa-star-half-stroke"></i>
-
-                    <p><span class="n-avaliacoes">(23)</span></p>
-
-                </div>
-
-                <h1>Estojo Rosa Leo&Leo</h1>
-
-                <p><span class="valores-antigos"><s>R$19,90</s></span>R$15,90</p>
-
-                <button class="button-comprar">COMPRAR</button>
-                    
-            </div>
-
-            <div class="produto">
-
-                <img src="img/prendedores.webp" alt="produto">
-
-                <div class="estrelas">
-
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <p><span class="n-avaliacoes">(31)</span></p>
-
-                </div>
-
-                <h1>Kit 6 Prendedores Estampados Jocar Office</h1>
-
-                <p><span class="valores-antigos"><s>R$19,90</s></span>R$9,90</p>
-
-                <button class="button-comprar">COMPRAR</button>
-                    
-            </div>
-
-
-            <div class="newsletter-container">
-                <p>NEWSLETTER</p>
-                <h1>Receba todas as promoções</h1>
-                <p>Quer receber nossas ofertas? Cadastre-se e comece a recebê-las!</p>
-
-                <div class="input-container">
-                    <div class="input">
-                        <input type="text" placeholder="E-mail">
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-            
-
-        </section>
-
-        <footer>
-
-            <div id="container-1-rodape">
-
-                <div class="info-rodape">
-                    <h1>Sobre a Papelaria Chuviscos</h1>
-                    <p>A Papelaria Chuviscos é o destino ideal para você encontrar materiais de papelaria, cadernos personalizados e itens de escritório que fazem a diferença no seu dia a dia. Com uma ampla variedade de estilos, tamanhos e acabamentos, oferecemos produtos que atendem a todas as suas necessidades. Há mais de 10 anos no mercado, somos especialistas em artigos de papelaria, garantindo design inovador, matéria-prima de excelência e acabamentos premium de alta qualidade.</p>
-                </div>
-
-                <div class="info-rodape">
-                    <h1>Informações e contato</h1>
-                    <p>Login e rastreio</p>
-                    <p>Conteúdo e promoções</p>
-                    <p>Política de privacidade</p>
-                    <p>Política de frete</p>
-                    <p>Quem somos</p>
-                    <p>Trocas e devoluções</p>
-                    <p>Unboxing</p>
-                    <p>Contato</p>
-                </div>
-
-                <div class="info-rodape">
-                    <h1>Entre em contato</h1>
-                    <p>4898472XXXX</p>
-                    <p>1234567XXXX</p>
-                    <p>emailgenerico@gmail.com</p>
-                    <p>Rodovia SC 401, Florianópolis/SC</p>
-                </div>
-
-                <div class="info-rodape" id="redes-sociais">
-                    <h1>Permaneça conectado</h1>
-                    <i class="fa-brands fa-square-instagram"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-pinterest"></i>
-                    <i class="fa-brands fa-tiktok"></i>
-                </div>
-
-            </div>
-
-            <hr>
-
-            <div id="container-2-rodape">
-
-                <div class="meios">
-                    <h1>Meios de pagamento</h1>
-                    <img src="icons/visa.png" alt="visa" width="45px" height="45px">
-                    <img src="icons/amex.png" alt="amex" width="45px" height="45px">
-                    <img src="icons/mastercard.png" alt="mastercard" width="45px" height="45px">
-                    <img src="icons/boleto.png" alt="boleto" width="45px" height="45px">
-                    <img src="icons/pix.png" alt="pix" width="41px" height="40px">
-                </div>
-
-                <div class="meios">
-                    <h1>Meios de envio</h1>
-                    <img src="icons/sedex.jpg" alt="sedex" width="45px" height="25px">
-                    <img src="icons/melhor-envio.jpg" alt="melhor envio" width="45px" height="25px">
-                </div>
-
-                
-            </div>
-            
-        </footer>
-
-        <div id="copyright">
-            <p>Copyright Chuvisco Papelaria - 4407XXXXXXXXXX - 2024. Todos os direitos reservados.</p>
-        </div>
-
+        </div> 
+        
         <script src="script.js"></script>
 
     </body>
+
 
 </html>
