@@ -41,13 +41,27 @@ body {
     background-color: #734A91;
 }
 
-#minha-conta-secao {
+#meu-carrinho-secao {
     position: fixed;
     z-index: 9999;
     right: 0;
-    width: 50%;
+    width: 450px;
     height: 100%;
     background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+.topo-carrinho {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #734A91;
+    color: #fff;
+}
+
+.topo-carrinho i {
+    font-size: 1.7rem;
 }
 
 .display-none {
@@ -93,7 +107,7 @@ header img {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    max-width: 40vw;
+    min-width: 40vw;
     height: 38px;
     border-radius: 6px;
 }
