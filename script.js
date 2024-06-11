@@ -1,15 +1,19 @@
+home = document.querySelector("#conteudo-home")
+atendimentoPagina = document.querySelector("#atendimento-pagina")
+meuCarrinhoSecao = document.querySelector("#meu-carrinho-secao")
+produtoNoCarrinho = document.querySelector(".produto-carrinho")
+
+
 function atendimento() {
 
     // a página principal some
-   home = document.querySelector("#conteudo-home")
    home.classList.remove("display-block")
    home.classList.add("display-none")
 
-    // a página de atendimento aparece
-   atendimentoPagina = document.querySelector("#atendimento-pagina")
+   // a página de atendimento aparece
    atendimentoPagina.classList.remove("display-none")
    atendimentoPagina.classList.add("display-block")
-
+   
 }
 
 document.querySelector('.atendimento-botao').addEventListener('click', atendimento)
@@ -17,12 +21,10 @@ document.querySelector('.atendimento-botao').addEventListener('click', atendimen
 function voltarParaSite() {
     
     // a página principal aparece 
-    home = document.querySelector("#conteudo-home")
     home.classList.remove("display-none")
     home.classList.add("display-block")
 
     //a página de atendimento some
-    atendimentoPagina = document.querySelector("#atendimento-pagina")
     atendimentoPagina.classList.remove("display-block")
     atendimentoPagina.classList.add("display-none")
     
@@ -33,14 +35,18 @@ document.querySelector('#button-voltar-site').addEventListener('click', voltarPa
 
 function minhaConta() {
 
-    minhaContaSecao = document.querySelector("#minha-conta-secao")
-    minhaContaSecao.classList.remove("display-none")
-    minhaContaSecao.classList.add("display-block")
+    meuCarrinhoSecao.classList.remove("display-none")
+    meuCarrinhoSecao.classList.add("display-block")
 
 }
 
-document.querySelector(".minha-conta-botao").addEventListener('click', minhaConta)
+document.querySelector(".meu-carrinho-botao").addEventListener('click', minhaConta)
 
 function sairDoCarrinho() {
-    
+
+    meuCarrinhoSecao.classList.remove("display-block")
+    meuCarrinhoSecao.classList.add("display-none")
+
 }
+
+document.querySelector("#x").addEventListener('click', sairDoCarrinho)
